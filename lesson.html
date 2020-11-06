@@ -32,13 +32,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Udemy</title>
+    <!-- favicon started -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <!-- favicon end -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/lesson.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <!-- Header Starting -->
 
     <header>
-      <a href="index.html" class="nav-link"
-        ><img src="assets/udemy-logo.webp" alt="udemy-logo"
+      <button class="nav-icon-btn bars-container">
+        <i class="fas fa-bars nav-icon"></i>
+      </button>
+      <a href="index.html" class="nav-link center"
+        ><img src="assets/udemy-logo.svg" alt="udemy-logo" class="nav-logo"
       /></a>
       <nav>
         <a href="index.html" class="nav-link"
@@ -46,25 +84,24 @@
         >
         <div class="nav-search-container">
           <button class="nav-icon-btn">
-            <img src="assets/icon/search-solid.svg" alt="search-icon" />
+            <i class="fas fa-search nav-icon"></i>
           </button>
-          <input
-            type="text"
-            placeholder="Хайлт хийх"
-            class="nav-search-input"
-          />
+          <input type="text" placeholder="Хайх..." class="nav-search-input" />
         </div>
         <a href="teacher-panel.html" class="nav-link"
           ><p class="nav-text">Хичээл заах</p></a
         >
-        <a href="cart.html" class="nav-link"
-          ><img src="assets/icon/shopping-cart-solid.svg" alt="cart-icon"
-        /></a>
+        <a href="cart.html" class="nav-link nav-icon"
+          ><i class="fas fa-shopping-cart nav-icon"></i
+        ></a>
         <div class="nav-btn-container">
           <a href="login.html" class="nav-btn login-btn">Нэвтрэх</a>
           <a href="signup.html" class="nav-btn signup-btn">Бүртгүүлэх</a>
         </div>
       </nav>
+      <button class="nav-icon-btn bars-container">
+        <i class="fas fa-search nav-icon"></i>
+      </button>
     </header>
 
     <!-- Header End -->
@@ -72,12 +109,14 @@
     <main>
       <h1>Sales Training: Practical Sales Techniques</h1>
       <div class="main-bottom">
-        <section class="video-container">
-          <video width="320" height="240" controls>
-            <source src="" />
+        <div class="video-container">
+          <video controls>
+            <source src="#" />
           </video>
           <div class="description-btn-ul">
-            <button class="description-li-btn">Сургалтын талаар</button>
+            <button class="description-li-btn li-active">
+              Сургалтын талаар
+            </button>
             <button class="description-li-btn">Багшийн талаар</button>
           </div>
           <div class="description">
@@ -88,50 +127,57 @@
               dolorum sunt! Lorem ipsum, dolor sit amet consectetur adipisicing
               elit. Delectus perferendis quasi, animi aperiam libero ipsa neque
               deleniti voluptatem laboriosam enim illo nam ratione cum
-              consectetur fugit placeat quo corporis aliquam.
+              consectetur fugit placeat quo corporis aliquam. Lorem ipsum dolor
+              sit, amet consectetur adipisicing elit. Illum voluptate quos qui
+              veritatis et explicabo voluptas ipsum, eveniet facere porro amet
+              quibusdam quasi temporibus aliquid rerum eos ex. Excepturi,
+              suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, amet perspiciatis nesciunt, quaerat modi quas sint
+              veniam maiores facere architecto esse, voluptatum sit explicabo
+              quod dolorem itaque! Sunt, voluptate laudantium.
             </p>
           </div>
-        </section>
+        </div>
         <section class="content-container">
           <h2 class="content-title">Агуулга</h2>
-          <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+          <a href="" class="content-list-btn content-active">
+            <i class="far fa-play-circle"></i>
+            <p class="lesson-title">1. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">2. Хичээлийн танилцуулга</p>
+            <p class="lesson-time">15:03</p>
+          </a>
+          <a href="" class="content-list-btn">
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">3. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">4. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">5. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">6. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">7. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
           <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
-            <p class="lesson-time">5:03</p>
-          </a>
-          <a href="" class="content-list-btn">
-            <img src="assets/icon/play-circle-regular.svg" class="icon-play" />
-            <p class="lesson-title">Хичээлийн танилцуулга</p>
+            <i class="fas fa-lock"></i>
+            <p class="lesson-title">8. Хичээлийн танилцуулга</p>
             <p class="lesson-time">5:03</p>
           </a>
         </section>
@@ -142,7 +188,7 @@
 
     <footer>
       <a href="index.html" class="nav-link"
-        ><img src="assets/udemy-logo.webp" alt="udemy-logo"
+        ><img src="assets/udemy-logo.svg" alt="udemy-logo" class="nav-logo"
       /></a>
       <p class="footer-copyright-text">&copy; 2020 Udemy, Inc</p>
     </footer>

@@ -32,57 +32,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Udemy</title>
+    <!-- favicon started -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <!-- favicon end -->
+    <link rel="stylesheet" href="css/panel.css" />
+    <link rel="stylesheet" href="css/admin-panel.css" />
+    <link rel="stylesheet" href="css/teacher-panel.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <nav>
-      <button class="nav-btn active">
-        <img src="assets/icon/tachometer-alt-solid.svg" alt="icon-dashboard" />
+      <button class="nav-btn nav-active">
+        <i class="fas fa-tachometer-alt"></i>
         Үндсэн
       </button>
       <button class="nav-btn">
-        <img
-          src="assets/icon/hand-holding-usd-solid.svg"
-          alt="icon-dashboard"
-        />
+        <i class="fas fa-hand-holding-usd"></i>
         Гүйлгээ
       </button>
       <button class="nav-btn">
-        <img src="assets/icon/chart-line-solid.svg" alt="icon-dashboard" />
+        <i class="fas fa-chart-line"></i>
         Сэтгэгдлүүд
       </button>
       <button class="nav-btn">
-        <img src="assets/icon/user-graduate-solid.svg" alt="icon-dashboard" />
+        <i class="fas fa-user-graduate"></i>
         Сурагчид
       </button>
       <button class="nav-btn">
-        <img src="assets/icon/cog-solid.svg" alt="icon-dashboard" />
+        <i class="fas fa-cog"></i>
         Тохиргоо
       </button>
       <button class="nav-btn">
-        <img src="assets/icon//sign-out-alt-solid.svg" alt="icon-dashboard" />
+        <i class="fas fa-sign-out-alt"></i>
         Гарах
       </button>
     </nav>
     <main>
-      <section class="header-container">
+      <section class="header-container fit">
+        <button class="nav-icon-btn bars-container">
+          <i class="fas fa-bars nav-icon"></i>
+        </button>
         <div class="header-left">
           <h1 class="panel-nav-title">Хяналтын самбар</h1>
           <p class="welcome-text">Тавтай морил, Наранбат</p>
         </div>
         <div class="header-right">
-          <button>
-            <img
-              src="assets/icon/plus-solid.svg"
-              alt="icon-plus"
-              class="btn-icon-img"
-            />
-            Сургалт нэмэх
-          </button>
           <img src="assets/man1.png" alt="profile" />
           <p class="username-text">Наранбат М.</p>
         </div>
       </section>
-      <section class="courses-container">
+      <section class="fit cards-container">
         <div class="card-container">
           <a href="#">
             <img
@@ -95,7 +123,7 @@
             </h2>
             <small class="card-teacher">Chris Croft</small>
             <div class="card-rating-container">
-              <span>&#11088;</span>
+              <span>&#11088; 4.5</span>
               <span>(12,072)</span>
             </div>
             <div class="card-price">
@@ -136,7 +164,7 @@
             </h2>
             <small class="card-teacher">Mark Timberlake, Spethen Mather</small>
             <div class="card-rating-container">
-              <span>&#11088;</span>
+              <span>&#11088; 4.5</span>
               <span>(4,566)</span>
             </div>
             <div class="card-price">
@@ -145,74 +173,71 @@
             <small class="card-best">Best seller</small>
           </a>
         </div>
+        <div class="card-container add-course-container">
+          <a href="lesson.html" class="add-course">
+            <h2 class="add-course-title">Сургалт нэмэх</h2>
+          </a>
+        </div>
       </section>
-      <section class="teachers-container">
+      <section class="teachers-container half-fit">
         <div class="teachers-header">
-          <h2 class="teachers-title">Багш нар</h2>
+          <h2 class="teachers-title">Сэтгэгдлүүд</h2>
           <button class="teachers-more-text">Бүгдийг үзэх</button>
         </div>
         <div class="teachers-list-container">
-          <div class="comments-item">
-            <p class="comments-list-name">Гантөмөр ОЮУНБАТ -</p>
+          <div class="comments-item shadow-25-3">
+            <p class="comments-list-name">Гантөмөр ОЮУНБАТ</p>
+            <p class="comments-line">-</p>
             <p class="comments-list-comment">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi libero in eum culpa vitae sed. Illo sint molestias
-              laudantium laboriosam iure! Commodi impedit perspiciatis corrupti
-              totam voluptatibus ullam quam.
+              Lorem, ipsum dolor sit amet consectetur...
             </p>
           </div>
-          <div class="comments-item">
-            <p class="comments-list-name">Гантөмөр ОЮУНБАТ -</p>
+          <div class="comments-item shadow-25-3">
+            <p class="comments-list-name">Гантөмөр ОЮУНБАТ</p>
+            <p class="comments-line">-</p>
             <p class="comments-list-comment">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi libero in eum culpa vitae sed. Illo sint molestias
-              laudantium laboriosam iure! Commodi impedit perspiciatis corrupti
-              totam voluptatibus ullam quam.
+              Lorem, ipsum dolor sit amet consectetur...
             </p>
           </div>
-          <div class="comments-item">
-            <p class="comments-list-name">Гантөмөр ОЮУНБАТ -</p>
+          <div class="comments-item shadow-25-3">
+            <p class="comments-list-name">Гантөмөр ОЮУНБАТ</p>
+            <p class="comments-line">-</p>
             <p class="comments-list-comment">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi libero in eum culpa vitae sed. Illo sint molestias
-              laudantium laboriosam iure! Commodi impedit perspiciatis corrupti
-              totam voluptatibus ullam quam.
+              Lorem, ipsum dolor sit amet consectetur...
             </p>
           </div>
-          <div class="comments-item">
-            <p class="comments-list-name">Гантөмөр ОЮУНБАТ -</p>
+          <div class="comments-item shadow-25-3">
+            <p class="comments-list-name">Гантөмөр ОЮУНБАТ</p>
+            <p class="comments-line">-</p>
             <p class="comments-list-comment">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quasi libero in eum culpa vitae sed. Illo sint molestias
-              laudantium laboriosam iure! Commodi impedit perspiciatis corrupti
-              totam voluptatibus ullam quam.
+              Lorem, ipsum dolor sit amet consectetur...
             </p>
           </div>
         </div>
       </section>
-      <section class="teachers-container">
+      <section class="teachers-container half-fit">
         <div class="teachers-header">
           <h2 class="teachers-title">Орлого</h2>
           <button class="teachers-more-text">Бүгдийг үзэх</button>
         </div>
-        <div class="teachers-list-container">
+        <div class="teachers-list-container shadow-25-3 mg-20">
           <div class="income-item">
-            <p class="income-number">₮504'270</p>
+            <p class="income-number">₮504'270 <i class="fas fa-sort-up"></i></p>
             <p class="income-desc">12 сурагчийн орлого</p>
             <p class="income-date">2020/11/01 10:25:04</p>
           </div>
           <div class="income-item">
-            <p class="income-number">₮504'270</p>
+            <p class="income-number">₮504'270 <i class="fas fa-sort-up"></i></p>
             <p class="income-desc">12 сурагчийн орлого</p>
             <p class="income-date">2020/11/01 10:25:04</p>
           </div>
           <div class="income-item">
-            <p class="income-number">₮504'270</p>
+            <p class="income-number">₮504'270 <i class="fas fa-sort-up"></i></p>
             <p class="income-desc">12 сурагчийн орлого</p>
             <p class="income-date">2020/11/01 10:25:04</p>
           </div>
           <div class="income-item">
-            <p class="income-number">₮504'270</p>
+            <p class="income-number">₮504'270 <i class="fas fa-sort-up"></i></p>
             <p class="income-desc">12 сурагчийн орлого</p>
             <p class="income-date">2020/11/01 10:25:04</p>
           </div>

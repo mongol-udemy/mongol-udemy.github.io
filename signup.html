@@ -28,13 +28,50 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Udemy</title>
+    <!-- favicon started -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <!-- favicon end -->
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
   <body>
     <!-- Header Starting -->
     <header>
-      <a href="index.html" class="nav-link"
-        ><img src="assets/udemy-logo.webp" alt="udemy-logo"
+      <button class="nav-icon-btn bars-container">
+        <i class="fas fa-bars nav-icon"></i>
+      </button>
+      <a href="index.html" class="nav-link center"
+        ><img src="assets/udemy-logo.svg" alt="udemy-logo" class="nav-logo"
       /></a>
       <nav>
         <a href="index.html" class="nav-link">
@@ -42,48 +79,69 @@
         </a>
         <div class="nav-search-container">
           <button class="nav-icon-btn">
-            <img src="assets/icon/search-solid.svg" alt="search-icon" />
+            <i class="fas fa-search nav-icon"></i>
           </button>
-          <input
-            type="text"
-            placeholder="Хайлт хийх"
-            class="nav-search-input"
-          />
+          <input type="text" placeholder="Хайх..." class="nav-search-input" />
         </div>
         <a href="teacher-panel.html" class="nav-link">
           <p class="nav-text">Хичээл заах</p>
         </a>
-        <a href="cart.html" class="nav-link"
-          ><img src="assets/icon/shopping-cart-solid.svg" alt="cart-icon"
-        /></a>
+        <a href="cart.html" class="nav-link nav-icon"
+          ><i class="fas fa-shopping-cart nav-icon"></i
+        ></a>
         <div class="nav-btn-container">
           <a href="login.html" class="nav-btn login-btn">Нэвтрэх</a>
           <a href="signup.html" class="nav-btn signup-btn">Бүртгүүлэх</a>
         </div>
       </nav>
+      <button class="nav-icon-btn bars-container">
+        <i class="fas fa-search nav-icon"></i>
+      </button>
     </header>
     <!-- Header End -->
     <!-- Body starting -->
-    <div class="signup-container">
-      <h2 class="signup-title">Udemy account -руугаа нэвтрэх</h2>
-      <hr />
-      <button class="login-facebook">Фейсбүүкээр үргэлжлүүлэх</button>
-      <button class="login-google">Гооглээр үргэлжлүүлэх</button>
-      <input type="text" placeholder="Овог нэр" class="signup-input" />
-      <input type="text" placeholder="Цахим шуудан" class="signup-input" />
-      <input type="password" placeholder="Нууц үг" class="signup-input" />
-      <div class="signup-pattern">
+    <main>
+      <div class="signup-container">
+        <h2 class="signup-title">Udemy account -руугаа нэвтрэх</h2>
         <hr />
-        <hr />
-        <hr />
+        <button class="login-facebook">
+          <i class="fab fa-facebook-f"></i>Фейсбүүкээр үргэлжлүүлэх
+        </button>
+        <button class="login-google">
+          <i class="fab fa-google"></i>Гооглээр үргэлжлүүлэх
+        </button>
+        <div class="login-input-container">
+          <button class="login-icon-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <input type="email" placeholder="Овог нэр" class="login-input" />
+        </div>
+        <div class="login-input-container">
+          <button class="login-icon-btn">
+            <i class="far fa-envelope"></i>
+          </button>
+          <input type="email" placeholder="Цахим шуудан" class="login-input" />
+        </div>
+        <div class="login-input-container">
+          <button class="login-icon-btn">
+            <i class="fas fa-lock"></i>
+          </button>
+          <input type="password" placeholder="Нууц үг" class="login-input" />
+        </div>
+        <div class="signup-pattern">
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+        </div>
+        <a href="teacher-panel.html" class="login-button">Бүртгүүлэх</a>
       </div>
-      <a href="index.html" class="login-button">Нэвтрэх</a>
-    </div>
+    </main>
     <!-- Body end-->
     <!-- Footer starting -->
     <footer>
       <a href="index.html" class="nav-link"
-        ><img src="assets/udemy-logo.webp" alt="udemy-logo"
+        ><img src="assets/udemy-logo.svg" alt="udemy-logo" class="nav-logo"
       /></a>
       <p class="footer-copyright-text">&copy; 2020 Udemy, Inc</p>
     </footer>
