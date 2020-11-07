@@ -67,7 +67,7 @@
   <body>
     <!-- Header Starting -->
     <header>
-      <button class="nav-icon-btn bars-container">
+      <button class="nav-icon-btn bars-container" aria-label="menu">
         <i class="fas fa-bars nav-icon"></i>
       </button>
       <a href="index.html" class="nav-link center"
@@ -78,7 +78,7 @@
           <p class="nav-text">Бүх сургалт</p>
         </a>
         <div class="nav-search-container">
-          <button class="nav-icon-btn">
+          <button class="nav-icon-btn" aria-label="search-top">
             <i class="fas fa-search nav-icon"></i>
           </button>
           <input type="text" placeholder="Хайх..." class="nav-search-input" />
@@ -94,7 +94,7 @@
           <a href="signup.html" class="nav-btn signup-btn">Бүртгүүлэх</a>
         </div>
       </nav>
-      <button class="nav-icon-btn bars-container">
+      <button class="nav-icon-btn bars-container" aria-label="search-top">
         <i class="fas fa-search nav-icon"></i>
       </button>
     </header>
@@ -112,13 +112,13 @@
           sizes="(max-width: 1000px) 770px, (max-width: 769px) 360px"
           alt="background-image"
         />
-        <div class="poster-search-container">
-          <h1 class="poster-search-title">Ирээдүйгээ гэрэлтүүл</h1>
-          <small class="poster-search-alert"
-            >Бүх сургалтууд 10/29 дуустал 29,900₮ хямдралтай байна</small
+        <form class="poster-search-container">
+          <label ><h3 class="poster-search-title">Ирээдүйгээ гэрэлтүүл</h3>
+          <p class="poster-search-alert"
+            >Бүх сургалтууд 10/29 дуустал 29,900₮ хямдралтай байна</p
           >
           <div class="poster-input-search-container">
-            <button class="poster-icon-btn">
+            <button class="poster-icon-btn" aria-label="search-bottom">
               <i class="fas fa-search nav-icon"></i>
             </button>
             <input
@@ -127,7 +127,8 @@
               class="poster-search-input"
             />
           </div>
-        </div>
+        </label>
+        </form>
       </div>
       <div class="main-title-container">
         <button class="main-title">Таны авсан сургалтууд</button>
@@ -142,6 +143,7 @@
           <a href="lesson.html">
             <img
               src="assets/Course/Sales_Training.jpg"
+              srcset="assets/Course/Sales_Training.jpg 1x, assets/Course/Sales_Training.jpg 2x"
               alt="Course"
               class="card-image"
             />

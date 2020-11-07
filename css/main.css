@@ -137,7 +137,7 @@ a:hover {
 }
 
 .card-teacher {
-  color: gray;
+  color: var(--sub-text);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -151,11 +151,11 @@ a:hover {
 }
 
 .card-rating-container > span:nth-child(1) {
-  color: rgb(255, 153, 0);
+  color: var(--star-text);
 }
 
 .card-rating-container > span:nth-child(2) {
-  color: gray;
+  color: var(--sub-tex);
 }
 
 .card-price {
@@ -171,15 +171,16 @@ a:hover {
 
 .card-price > small {
   text-decoration: line-through;
-  color: gray;
+  color: var(--sub-text);
 }
 
 .card-best {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 5px;
-  background-color: orange;
+  background-color: var(--bestseller-container);
   border-radius: 10px;
+  color: var(--bestseller-text);
 }
 
 /* Main ending */
