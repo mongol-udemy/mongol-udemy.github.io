@@ -93,11 +93,10 @@ body {
   background: none;
   color: inherit;
   border: none;
-  padding: 0;
+  padding: 10px 12px;
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  padding-bottom: 10px;
 }
 
 .main-title-container > button:focus {
