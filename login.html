@@ -67,7 +67,7 @@
   <body>
     <!-- Header Starting -->
     <header>
-      <button class="nav-icon-btn bars-container">
+      <button class="nav-icon-btn bars-container" aria-label="menu">
         <i class="fas fa-bars nav-icon"></i>
       </button>
       <a href="index.html" class="nav-link center"
@@ -78,7 +78,7 @@
           <p class="nav-text">Бүх сургалт</p>
         </a>
         <div class="nav-search-container">
-          <button class="nav-icon-btn">
+          <button class="nav-icon-btn" aria-label="search-top">
             <i class="fas fa-search nav-icon"></i>
           </button>
           <input type="text" placeholder="Хайх..." class="nav-search-input" />
@@ -94,13 +94,14 @@
           <a href="signup.html" class="nav-btn signup-btn">Бүртгүүлэх</a>
         </div>
       </nav>
-      <button class="nav-icon-btn bars-container">
+      <button class="nav-icon-btn bars-container" aria-label="search-top">
         <i class="fas fa-search nav-icon"></i>
       </button>
     </header>
     <!-- Header End -->
     <main>
-      <div class="login-container">
+      <from class="login-container">
+        <label class="login-container">
         <h2 class="login-title">Udemy account -руугаа нэвтрэх</h2>
         <hr />
         <button class="login-facebook">
@@ -110,19 +111,20 @@
           <i class="fab fa-google"></i>Гооглээр үргэлжлүүлэх
         </button>
         <div class="login-input-container">
-          <button class="login-icon-btn">
+          <button class="login-icon-btn" aria-label="email">
             <i class="far fa-envelope"></i>
           </button>
           <input type="email" placeholder="Цахим шуудан" class="login-input" />
         </div>
         <div class="login-input-container">
-          <button class="login-icon-btn">
+          <button class="login-icon-btn" aria-label="password">
             <i class="fas fa-lock"></i>
           </button>
           <input type="password" placeholder="Нууц үг" class="login-input" />
         </div>
         <a href="admin-panel.html" class="login-button">Нэвтрэх</a>
-      </div>
+      </label>
+      </from>
     </main>
     <!-- Footer starting -->
     <footer>

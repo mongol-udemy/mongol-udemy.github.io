@@ -49,7 +49,7 @@
 
 .statistic-title {
   font-size: 12px;
-  color: var(--sub-li-text);
+  color: var(--inactive-text);
   margin-bottom: 0;
   text-align: center;
 }

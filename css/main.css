@@ -273,13 +273,13 @@ button > i {
 
 .login-button {
   width: 100%;
-  background: rgba(255, 0, 0, 0.7);
+  background-color:var(--login-red);
   text-align: center;
   padding: 15px 0 15px 0;
   border-radius: 5px;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
-  color: white;
+  color: #fff;
   font-weight: bold;
 }
 
