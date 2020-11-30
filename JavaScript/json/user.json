@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "last_name": "Наранбат",
+      "first_name": "Майнбаяр",
+      "email": "m.naranbat7@gmail.com",
+      "pic_url": "#",
+      "token": "#"
+    },
+    {
+      "id": 2,
+      "last_name": "Алтангэрэл",
+      "first_name": "Давгацэрэн",
+      "email": "davgatseren@gmail.com",
+      "pic_url": "#",
+      "token": "#"
+    }
+  ]
+}

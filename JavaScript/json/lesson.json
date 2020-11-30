@@ -1,0 +1,51 @@
+{
+  "id": 1,
+  "title": "Sales Training: Practical Sales Techniques",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vitae, vero et ipsam id, esse sequi natus quo nesciunt impedit soluta. Laudantium voluptatibus aperiam sit nisi ipsam fuga dolorum sunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus perferendis quasi, animi aperiam libero ipsa neque deleniti voluptatem laboriosam enim illo nam ratione cum consectetur fugit placeat quo corporis aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptate quos qui veritatis et explicabo voluptas ipsum, eveniet facere porro amet quibusdam quasi temporibus aliquid rerum eos ex. Excepturi, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, amet perspiciatis nesciunt, quaerat modi quas sint veniam maiores facere architecto esse, voluptatum sit explicabo quod dolorem itaque! Sunt, voluptate laudantium.",
+  "about_teacher": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vitae, vero et ipsam id, esse sequi natus quo nesciunt impedit soluta. Laudantium voluptatibus aperiam sit nisi ipsam fuga dolorum sunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+  "video_link": "#",
+  "contents": [
+    {
+      "id": 25,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": true
+    },
+    {
+      "id": 26,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    },
+    {
+      "id": 27,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    },
+    {
+      "id": 28,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    },
+    {
+      "id": 29,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    },
+    {
+      "id": 30,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    },
+    {
+      "id": 31,
+      "title": "Хичээлийн танилцуулга",
+      "time": "5:03",
+      "is_free": false
+    }
+  ]
+}

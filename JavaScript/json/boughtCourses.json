@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "img": "#",
+        "title": "Sales Training: Practical Sales Techniques",
+        "teacher": "Chris Croft",
+        "star": "4,5",
+        "student_number": "12072",
+        "price": "49,900",
+        "sale_price": "29,900",
+        "best_seller": true
+      },
+      {
+        "id": 2,
+        "img": "#",
+        "title": "Beginning Project Management: Project Management Level One",
+        "teacher": "Joseph Phillips",
+        "star": "4,5",
+        "student_number": "15,734",
+        "price": "49,900",
+        "sale_price": "29,900",
+        "best_seller": false
+      },
+      {
+        "id": 3,
+        "img": "#",
+        "title": "Management Skills - Team Leadership Skills Masterclass...",
+        "teacher": "Mark Timberlake, Spethen Mather",
+        "star": "4,5",
+        "student_number": "4,566",
+        "price": "49,900",
+        "sale_price": "29,900",
+        "best_seller": true
+      },
+      {
+        "id": 4,
+        "img": "#",
+        "title": "The essential Guide to Entrepreneurship by Guy Kaw...",
+        "teacher": "Guy Kawasaki",
+        "star": "4,5",
+        "student_number": "2,940",
+        "price": "49,900",
+        "sale_price": "29,900",
+        "best_seller": true
+      }
+]

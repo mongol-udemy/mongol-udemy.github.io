@@ -49,6 +49,7 @@ video {
 
 .description p {
   color: var(--main-text);
+  margin-top: 10px;
 }
 
 .content-list-btn {

@@ -1,0 +1,93 @@
+{
+  "id": 1,
+  "last_name": "Наранбат",
+  "first_name": "Майнбаяр",
+  "pic_url": "#",
+  "courses": [
+    {
+      "id": 1,
+      "img": "#",
+      "title": "Sales Training: Practical Sales Techniques",
+      "teacher": "Chris Croft",
+      "star": "4,5",
+      "student_number": "12072",
+      "price": "49,900",
+      "sale_price": "29,900",
+      "best_seller": true
+    },
+    {
+      "id": 2,
+      "img": "#",
+      "title": "Sales Training: Practical Sales Techniques",
+      "teacher": "Chris Croft",
+      "star": "4,5",
+      "student_number": "12072",
+      "price": "49,900",
+      "sale_price": "29,900",
+      "best_seller": true
+    },
+    {
+      "id": 3,
+      "img": "#",
+      "title": "Sales Training: Practical Sales Techniques",
+      "teacher": "Chris Croft",
+      "star": "4,5",
+      "student_number": "12072",
+      "price": "49,900",
+      "sale_price": "29,900",
+      "best_seller": true
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "last_name": "Гантөмөр",
+      "first_name": "Оюунбат",
+      "message": "Lorem, ipsum dolor sit amet consectetur"
+    },
+    {
+      "id": 2,
+      "last_name": "Гантөмөр",
+      "first_name": "Оюунбат",
+      "message": "Lorem, ipsum dolor sit amet consectetur"
+    },
+    {
+      "id": 3,
+      "last_name": "Гантөмөр",
+      "first_name": "Оюунбат",
+      "message": "Lorem, ipsum dolor sit amet consectetur"
+    },
+    {
+      "id": 4,
+      "last_name": "Гантөмөр",
+      "first_name": "Оюунбат",
+      "message": "Lorem, ipsum dolor sit amet consectetur"
+    }
+  ],
+  "income": [
+    {
+      "id": 1,
+      "value": 504270,
+      "message": "12 сурагчийн орлого",
+      "date": "2020/11/01 10:25:04"
+    },
+    {
+      "id": 2,
+      "value": 504270,
+      "message": "12 сурагчийн орлого",
+      "date": "2020/11/01 10:25:04"
+    },
+    {
+      "id": 3,
+      "value": 504270,
+      "message": "12 сурагчийн орлого",
+      "date": "2020/11/01 10:25:04"
+    },
+    {
+      "id": 4,
+      "value": 504270,
+      "message": "12 сурагчийн орлого",
+      "date": "2020/11/01 10:25:04"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": 1,
+  "last_name": "Наранбат",
+  "first_name": "Майнбаяр",
+  "pic_url": "#",
+  "profit": {
+    "income": 9500000,
+    "withdrawal": 4500000,
+    "profit": 5000000
+  },
+  "number_statistic": [
+    {
+      "name": "Бизнес",
+      "total": 475
+    },
+    {
+      "name": "Хувь хүний хөгжил",
+      "total": 431
+    },
+    {
+      "name": "IT & Software",
+      "total": 174
+    },
+    {
+      "name": "Photograph",
+      "total": 475
+    },
+    {
+      "name": "Дизайн",
+      "total": 134
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "last_name": "Гантөмөр",
+      "first_name": "Оюунбат",
+      "student_number": 3071,
+      "pic_url": "#"
+    },
+    {
+      "id": 2,
+      "last_name": "Цэцэг",
+      "first_name": "Дулам",
+      "student_number": 2515,
+      "pic_url": "#"
+    },
+    {
+      "id": 3,
+      "last_name": "Цэцэг",
+      "first_name": "Халиун",
+      "student_number": 312,
+      "pic_url": "#"
+    },
+    {
+      "id": 4,
+      "last_name": "Чулуун",
+      "first_name": "Ариунболд",
+      "student_number": 150,
+      "pic_url": "#"
+    }
+  ],
+  "comparison": [
+    {
+      "name": "IT & Software",
+      "pic_url": "#",
+      "percent": 93
+    },
+    {
+      "name": "Хувь хүний хөгжил",
+      "pic_url": "#",
+      "percent": 73
+    },
+    {
+      "name": "Дизайн",
+      "pic_url": "#",
+      "percent": 13
+    }
+  ]
+}

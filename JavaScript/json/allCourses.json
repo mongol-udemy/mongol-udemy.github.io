@@ -1,0 +1,104 @@
+{
+  "image": "#",
+  "imageTablet": "#",
+  "imageMobile": "#",
+  "title": "Бүх сургалтууд 10/29 дуустал 29,900₮ хямдралтай байна",
+  "all_courses": [
+    {
+      "id": 1,
+      "img": "#",
+      "title": "Sales Training: Practical Sales Techniques",
+      "teacher": "Chris Croft",
+      "star": "4,5",
+      "studentNumber": "12072",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/01 08:00:01"
+    },
+    {
+      "id": 2,
+      "img": "#",
+      "title": "Beginning Project Management: Project Management Level One",
+      "teacher": "Joseph Phillips",
+      "star": "4,5",
+      "studentNumber": "15,734",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": false,
+      "publishedDate": "2020/01/02 08:00:01"
+    },
+    {
+      "id": 3,
+      "img": "#",
+      "title": "Management Skills - Team Leadership Skills Masterclass...",
+      "teacher": "Mark Timberlake, Spethen Mather",
+      "star": "4,5",
+      "studentNumber": "4,566",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/03 08:00:01"
+    },
+    {
+      "id": 4,
+      "img": "#",
+      "title": "The essential Guide to Entrepreneurship by Guy Kaw...",
+      "teacher": "Guy Kawasaki",
+      "star": "4,5",
+      "studentNumber": "2,940",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/04 08:00:01"
+    },
+    {
+      "id": 5,
+      "img": "#",
+      "title": "The Real Estate Financial Modeling Bootcamp",
+      "teacher": "Justin Kivel",
+      "star": "4,5",
+      "studentNumber": "3,575",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": false,
+      "publishedDate": "2020/01/05 08:00:01"
+    },
+    {
+      "id": 6,
+      "img": "#",
+      "title": "The complete Splunk Beginner Course",
+      "teacher": "Adam Frisbee",
+      "star": "4,5",
+      "studentNumber": "7,819",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/06 08:00:01"
+    },
+    {
+      "id": 7,
+      "img": "#",
+      "title": "UiPath - Level 1 Robotic Process Automation",
+      "teacher": "Bryan Lamb",
+      "star": "4,5",
+      "studentNumber": "7,949",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/07 08:00:01"
+    },
+    {
+      "id": 8,
+      "img": "#",
+      "title": "The complate Project Management Fundementals",
+      "teacher": "Mauricio Rubio - Agille Guru & Founder of...",
+      "star": "4,5",
+      "studentNumber": "4,983",
+      "price": "49,900",
+      "salePrice": "29,900",
+      "bestSeller": true,
+      "publishedDate": "2020/01/08 08:00:01"
+    }
+  ]
+}
